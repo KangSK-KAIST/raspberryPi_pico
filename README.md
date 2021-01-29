@@ -3,6 +3,8 @@
 A repository of an example how to use RaspberryPi Pico as a submodule.
 The specific steps are elaborated below.
 
+Note that `${PROJECT_DIRECTORY}` is the root directory of the cloned version of this repository.
+
 ## Prerequisites
 
 Run the following command to install all programs needed.
@@ -42,7 +44,7 @@ Use it to debug the program.
 
 ## Move the code (to RPi)
 
-Move the main.uf2 to the RaspberryPi Pico.
+Move the `main.uf2` to the RaspberryPi Pico.
 
 ## Additional Resources
 
