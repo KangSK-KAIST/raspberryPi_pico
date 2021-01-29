@@ -33,8 +33,11 @@ Run the following command.
 ```shell
 mkdir -p ${PROJECT_DIRECTORY}/build
 cd ${PROJECT_DIRECTORY}/build
+# Release version
 cmake ..
-make main
+# Debug version
+# cmake -DCMAKE_BUILD_TYPE=Debug ..
+make -j $(nproc) main
 ```
 
 ## Debug the code
